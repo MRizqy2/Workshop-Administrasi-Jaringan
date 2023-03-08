@@ -1,5 +1,11 @@
 # Laporan Tugas Minggu 2
 
+### Nama : Muhammad Rizqy Ferdiansyah
+
+### NRP : 3121600024
+
+### Kelas : 2 D4 Teknik Informatika A
+
 ## 1. Kernel
 **Kernel** adalah core/inti dari sistem komputer. Kernel merupakan bagian dari OS dengan kata lain kernel adalah perangkat lunak yang membantu program program komputer untuk memanfaatkan resource/hardware yang ada di komputer.Pada umumnya pasti ada scheduler, supervisor, interrupt handler, dan memory manager.
 
