@@ -1,9 +1,7 @@
 # Laporan Tugas Minggu 2
 
 ### Nama : Muhammad Rizqy Ferdiansyah
-
 ### NRP : 3121600024
-
 ### Kelas : 2 D4 Teknik Informatika A
 
 ## 1. Kernel
