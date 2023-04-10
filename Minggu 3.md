@@ -6,7 +6,7 @@ Kelompok 8:
 
 Pertama dilakukan adalah menginstall **ntp** nya seperti pada gambar dibawah ini
 
-[![npm-Install.jpg](https://i.postimg.cc/WdxdbbtW/npm-Install.jpg)](https://postimg.cc/WdxdbbtW)
+![Image description](https://i.postimg.cc/tg4Wksbj/npm-Install.jpg)
 
 Setelah menginstall masuk ke konfigurasi, edit file konfigurasi 
 
