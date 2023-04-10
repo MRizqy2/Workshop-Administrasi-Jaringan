@@ -18,4 +18,4 @@ Lalu baris paling bawah tambahkan kode yang menunjukan netword ID dari komputer 
 
 lakukan command dibawah untuk mengecek apakah server ntp sudah ditambahkan, dan hasilnya seperti pada gambar dibawah ini.
 
-![Image description](https://i.postimg.cc/g0gqbvsj/ntpq.jpg)
+[![ntpq.jpg](https://i.postimg.cc/g0gqbvsj/ntpq.jpg)](https://postimg.cc/qtCC869H)
