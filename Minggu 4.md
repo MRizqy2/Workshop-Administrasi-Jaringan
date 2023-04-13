@@ -2,6 +2,7 @@ Kelompok 4:
 - Sandy Putra Pradana
 - Obed Christian Sanjaya
 - Muhammad Rizqy Ferdiansyah
+- Daffa Ridwhan Ramadhan
 # Setting lokal NTP VMWare Debian
 
 Pertama yang dilakukan adalah menginstall "ntp" nya seperti pada gambar dibawah ini
