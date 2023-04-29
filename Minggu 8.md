@@ -103,7 +103,7 @@ lakukan instalasi package Proftpd dengan menggunakan perintah berikut :
 sudo apt-get install proftpd
 ```
 
-![update](assets/WhatsApp%20Image%202023-04-27%20at%2008.22.01.jpeg)
+[![Screenshot-4663.png](https://i.postimg.cc/jSKY2vWW/Screenshot-4663.png)](https://postimg.cc/bs6BFx98)
 
 ### 2.2 Melakukan backup
 
@@ -113,8 +113,6 @@ Sebelum mengedit file anda perlu melakukan backup paa file `proftpd.conf` dengan
 sudo cp /etc/proftpd/proftpd.conf /etc/proftpd/proftpd.conf.backup
 ```
 
-![update](assets/WhatsApp%20Image%202023-04-27%20at%2008.22.02.jpeg)
-
 ### 2.3 Melakukan edit pada file proftpd.conf
 
 Untuk mengedit file proftpd.conf dengan mengetikan perintah berikut.
@@ -123,17 +121,15 @@ Untuk mengedit file proftpd.conf dengan mengetikan perintah berikut.
 sudo nano /etc/proftpd/proftpd.conf
 ```
 
-![update](<assets/WhatsApp%20Image%202023-04-27%20at%2008.22.02%20(1).jpeg>)
-
 setelah itu akan terbuka file `proftpd.conf`. anda hanya perlu menganti beberapa baris untuk settingan default.
 
 Ubah UseIPv6 yang awalnya on menjadi off, dan kemudian Ubah Domain sesuai dengan nama Domain Anda. Disini Nama Domain saya adalah `kampus-06.takehome.com`.
 
-![update](assets/WhatsApp%20Image%202023-04-27%20at%2008.22.15.jpeg)
+[![Screenshot-4667.png](https://i.postimg.cc/7ZXd648c/Screenshot-4667.png)](https://postimg.cc/K1kJqdYr)
 
 Setelah itu uncommand `DefaultRoot` di bagian bawah file.
 
-![update](<assets/WhatsApp%20Image%202023-04-27%20at%2008.22.15%20(1).jpeg>)
+[![Screenshot-4666.png](https://i.postimg.cc/pdpGLnBh/Screenshot-4666.png)](https://postimg.cc/FfXgPz8N)
 
 Setelah itu anda dapat menekan `"Ctrl+X"` untuk keluar dan tekan `"Y"` untuk konfirmasi dan kemudian tekan `"Enter"`.
 
@@ -150,7 +146,7 @@ Retype new password :
 
 Kemudian tekan `Y` untuk konfirmasi.
 
-![update](assets/WhatsApp%20Image%202023-04-27%20at%2008.22.16.jpeg)
+[![Screenshot-4668.png](https://i.postimg.cc/bwsVzB8H/Screenshot-4668.png)](https://postimg.cc/MnJm5tnv)
 
 ### 2.5 Ujicoba Access FTP
 
@@ -158,10 +154,10 @@ Anda bisa menggunakan file exploler pada windows atau dengan file exploler lainn
 
 jika anda menggunakan file exploler pada windows, anda dapat mengetikan alamat ip servic seperti berikut
 
-![update](assets/WhatsApp%20Image%202023-04-27%20at%2008.22.38.jpeg)
+[![Whats-App-Image-2023-04-29-at-10-22-44.jpg](https://i.postimg.cc/bY9BLn3b/Whats-App-Image-2023-04-29-at-10-22-44.jpg)](https://postimg.cc/233GS1p8)
 
 Kemudian tekan `Enter` dan anda akan di arahkan untuk melakukan login dengan memasukkan username dan password.
 
-![update](assets/WhatsApp%20Image%202023-04-27%20at%2008.22.39.jpeg)
+[![Whats-App-Image-2023-04-29-at-10-45-23.jpg](https://i.postimg.cc/bY9BLn3b/Whats-App-Image-2023-04-29-at-10-45-23.jpg)](https://postimg.cc/233GS1p8)
 
 Setelah itu masukan Username and Password anda lalu tekan Log On. dan selamat anda sudah dapat melakukan Upload file pada server.
