@@ -158,6 +158,6 @@ jika anda menggunakan file exploler pada windows, anda dapat mengetikan alamat i
 
 Kemudian tekan `Enter` dan anda akan di arahkan untuk melakukan login dengan memasukkan username dan password.
 
-[![Whats-App-Image-2023-04-29-at-10-45-23.jpg](https://i.postimg.cc/bY9BLn3b/Whats-App-Image-2023-04-29-at-10-45-23.jpg)](https://postimg.cc/233GS1p8)
+[![Whats-App-Image-2023-04-29-at-10-45-23.jpg](https://i.postimg.cc/bl4Ba4ek/Whats-App-Image-2023-04-29-at-10-45-23.jpg)](https://postimg.cc/2d4g4fhr)
 
 Setelah itu masukan Username and Password anda lalu tekan Log On. dan selamat anda sudah dapat melakukan Upload file pada server.
