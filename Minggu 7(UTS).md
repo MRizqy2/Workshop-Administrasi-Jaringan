@@ -12,4 +12,4 @@
 ### 4. Daffa Ridwan R (3121600027)
 
 ## Berikut Link Demo UTS
-[Demo Konfigurasi DNS](https://drive.google.com/file/d/1-qWYChJnH_8Af3fPv31fWJJVwdMGwgTS/view)
+[Demo UTS](https://drive.google.com/file/d/1-qWYChJnH_8Af3fPv31fWJJVwdMGwgTS/view)
