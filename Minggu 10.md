@@ -22,14 +22,15 @@ Berikut langkah - langkah untuk menginstall web server:
 [![Whats-App-Image-2023-05-12-at-19-18-12.jpg](https://i.postimg.cc/2ySBh5tv/Whats-App-Image-2023-05-12-at-19-18-12.jpg)](https://postimg.cc/CB91VwSL)
  
 3. Kemudian dilanjutkan dengan menginstall **Nginx**, **MariaDB**, **Php**.
-[![Whats-App-Image-2023-05-12-at-19-22-49.jpg](https://i.postimg.cc/851Fg5N3/Whats-App-Image-2023-05-12-at-19-22-49.jpg)](https://postimg.cc/HJhWQTJ4)
+[![Whats-App-Image-2023-05-12-at-20-29-36.jpg](https://i.postimg.cc/vm40cQFD/Whats-App-Image-2023-05-12-at-20-29-36.jpg)](https://postimg.cc/1gZGd1zZ)
 
 4. Setelah itu menginstall package utility yang digunakan untuk menginstall composer nantinya.
-[![Whats-App-Image-2023-05-12-at-19-29-26.jpg](https://i.postimg.cc/90sF0FHc/Whats-App-Image-2023-05-12-at-19-29-26.jpg)](https://postimg.cc/GTJ1SRpf)
+
+[![Whats-App-Image-2023-05-12-at-19-22-49.jpg](https://i.postimg.cc/851Fg5N3/Whats-App-Image-2023-05-12-at-19-22-49.jpg)](https://postimg.cc/HJhWQTJ4)
 
 5. Download **composer.phar**, lalu pindah ke folder usr/bin agar bisa diakses sebagai program linux
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ycqoezm00oj20es3uik5.png)
+[![Whats-App-Image-2023-05-12-at-19-29-26.jpg](https://i.postimg.cc/90sF0FHc/Whats-App-Image-2023-05-12-at-19-29-26.jpg)](https://postimg.cc/GTJ1SRpf)
 
 6. Cek hasilnya dengan melihat version dari **composer**
 
