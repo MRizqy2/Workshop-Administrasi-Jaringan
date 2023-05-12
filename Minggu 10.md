@@ -39,24 +39,18 @@ Berikut langkah - langkah untuk menginstall web server:
 
 ### Mencoba menginstall contoh projek laravel(php) dan dijalankan menggunakan Server
 
-**Pertama**, clone dari github terlebih dahulu.
+**Pertama**, Menjalankan perintah **composer** untuk menginstall Laravel lewat bantuan Composer
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p240y43qmk6i1vxcmw5f.png)
+[![Whats-App-Image-2023-05-12-at-20-37-33.jpg](https://i.postimg.cc/cHbhW25w/Whats-App-Image-2023-05-12-at-20-37-33.jpg)](https://postimg.cc/47pVbLGx)
  
 **Kedua** lakukan install package menggunakan composer
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d2oi33urt57piry4wexf.png)
 
-**Ketiga** Tambahkan konfigurasi project pada **Nginx**
+**Ketiga** Menjalankan **php artisan serve**
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fs5i0hquroi1ohhbjuo5.png)
-
-**Keempat** Setelah melakukan konfigurasi restart **service** nginx.
-
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rpg8yl9ft7n1vk032zoh.png)
-
+[![Whats-App-Image-2023-05-12-at-20-41-46.jpg](https://i.postimg.cc/fbhT2bz0/Whats-App-Image-2023-05-12-at-20-41-46.jpg)](https://postimg.cc/MndSXqjW)
 
 Hasil akhirnya akan menampilkan halaman website seperti ini
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wtrigt7rmu08vwlhdvyr.png)
+[![Whats-App-Image-2023-05-12-at-20-07-09.jpg](https://i.postimg.cc/Bnm1RDz1/Whats-App-Image-2023-05-12-at-20-07-09.jpg)](https://postimg.cc/PC8xwLTt)
