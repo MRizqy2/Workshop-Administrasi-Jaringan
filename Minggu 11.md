@@ -33,4 +33,4 @@
 
 Berikut hasil akhirnya 
 
-
+[![Whats-App-Image-2023-05-12-at-19-50-36.jpg](https://i.postimg.cc/wT1tJhmF/Whats-App-Image-2023-05-12-at-19-50-36.jpg)](https://postimg.cc/D8Ky345b)
