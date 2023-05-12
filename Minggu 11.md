@@ -11,6 +11,7 @@
 
 ### 4. Daffa Ridwan R (3121600027)
 
+Lanjutan dari konfigurasi DNS pada minggu sebelumnya
 
 1. Yang pertama dilakukan adalah menambah `allow-transfer` pada zone di file **named.conf.local**
 
