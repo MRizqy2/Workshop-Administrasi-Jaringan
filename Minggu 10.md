@@ -56,28 +56,6 @@ Berikut langkah - langkah untuk menginstall web server:
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rpg8yl9ft7n1vk032zoh.png)
 
-**Kelima** melakukan instalasi RDBMS (Relational Database Management Software) PhpMyAdmin di server
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/60lvfwoo010dlj3cx7y3.png)
-
-Setelah itu dapat kita lihat pada phpmyadmin susunan table pada database seperti berikut ini:
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ipgnqdzsql1rx52q0nvv.png)
-
-Langkah **Terakhir** adalah dengan menginstall **_FTP_**
-
-FTP merupakan protokol yang bisa menyimpan file pada server. Untuk menginstall nya cukup via apt lalu nama package nya _proftpd_. Seperti pada gambar berikut ini:
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w0xqhgf54njyteahyfc8.png)
-
-Setelah terpasang check service dari ftp apakah berjalan dengan baik, dengan menggunakan command **systemctl**
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ld0op0ut67q3cvcvyt2s.png)
-
-Jika berjalan dengan baik maka akan seperti gambar diatas. Jalankan ftp mengkoneksikannya dengan localhost
-
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qo9r5eibizfn5qtocfh4.png)
 
 Hasil akhirnya akan menampilkan halaman website seperti ini
 
