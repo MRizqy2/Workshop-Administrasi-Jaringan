@@ -11,8 +11,6 @@
 
 ### 4. Daffa Ridwan R (3121600027)
 
-# Install Web Server di Linux
-
 Berikut langkah - langkah untuk menginstall web server: 
 
 1. pastikan dns server menggunakan dns server yang sudah  disediakan dan juga pastikan gateway sesuai dengan router
