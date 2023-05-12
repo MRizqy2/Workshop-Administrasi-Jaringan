@@ -33,4 +33,4 @@
 
 Berikut hasil akhirnya 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6k5kkj08prncxreiehsh.png)
+
