@@ -22,6 +22,7 @@ Berikut langkah - langkah untuk menginstall web server:
 [![Whats-App-Image-2023-05-12-at-19-18-12.jpg](https://i.postimg.cc/2ySBh5tv/Whats-App-Image-2023-05-12-at-19-18-12.jpg)](https://postimg.cc/CB91VwSL)
  
 3. Kemudian dilanjutkan dengan menginstall **Nginx**, **MariaDB**, **Php**.
+
 [![Whats-App-Image-2023-05-12-at-20-29-36.jpg](https://i.postimg.cc/vm40cQFD/Whats-App-Image-2023-05-12-at-20-29-36.jpg)](https://postimg.cc/1gZGd1zZ)
 
 4. Setelah itu menginstall package utility yang digunakan untuk menginstall composer nantinya.
