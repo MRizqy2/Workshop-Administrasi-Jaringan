@@ -32,7 +32,7 @@ Berikut langkah - langkah untuk menginstall web server:
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ycqoezm00oj20es3uik5.png)
 
 6. Cek hasilnya dengan melihat version dari **composer**
-7. 
+
 [![Whats-App-Image-2023-05-12-at-19-29-50.jpg](https://i.postimg.cc/XYSY0Jg8/Whats-App-Image-2023-05-12-at-19-29-50.jpg)](https://postimg.cc/nC2J4ngj)
 
 ### Mencoba menginstall contoh projek laravel(php) dan dijalankan menggunakan Server
