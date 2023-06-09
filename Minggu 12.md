@@ -19,7 +19,7 @@ Berikut cara konfigurasi SMTP Server pada Sistem Operasi Linux:
 1. Menginstall package Postfix 
 
 
-
+[![Screenshot-4711.png](https://i.postimg.cc/wB8pCGBf/Screenshot-4711.png)](https://postimg.cc/MnDNRtVV)
 
 2. Mengisi nama email sistem
 
@@ -29,27 +29,68 @@ Fase ini akan dijalankan secara otomatis sehingga user akan diminta mengisi emai
 
 3. Lalu konfigurasi file **main.cf** seperti berikut ini
 
+[![Screenshot-4725.png](https://i.postimg.cc/8zNLV3dy/Screenshot-4725.png)](https://postimg.cc/8jX7RZ0W)
 
+4. Konfigurasi Dovecot
 
-Setelah melakukan konfigurasi simpan perubahan, lalu restart konfigurasi postfix nya
+Edit file konfigurasi `/etc/dovecot/dovecot.conf`.
 
+```console
+sudo vim /etc/dovecot/dovecot.conf
+```
 
+Uncomment dan edit baris berikut.
 
-4. Kemudian tambah CNAME untuk email pada file db-forward
+```console
+# from
+#listen = *, ::
 
+# to
+listen = *
+```
 
+Edit file konfigurasi `/etc/dovecot/conf.d/10-auth.conf`.
 
-## Membuat Contoh Mail
+```console
+sudo vim /etc/dovecot/conf.d/10-auth.conf
+```
 
-Semua package telah terinstall selanjutnya konfigurasi pada apache2 nya.
+Uncomment dan ganti dari yes ke no.
 
+```console
+# connection is considered secure and plaintext authentication is allowed.
+# See also ssl=required setting.
+disable_plaintext_auth = no
+```
 
+Edit file konfigurasi `/etc/dovecot/conf.d/10-mail.conf`.
 
+```console
+sudo vim /etc/dovecot/conf.d/10-mail.conf
+```
 
+Uncomment pada `mail_location = maildir:~/Maildir` dan beri comment pada `mail_location = mbox:~/mail:INBOX=/var/mail/%u`.
 
-Kemudian tambahkan juga konfigurasi apache 2 di site-availables, 
+Restart dovecot service.
 
+```console
+sudo systemctl restart dovecot
+```
 
+5. Menambahkan User Email
 
+Tambahkan beberapa user dan password menggunakan perintah adduser yang akan digunakan untuk user email. Pada percobaan kali ini akan membuat dua user, yaitu user `b` dan user `c`. dengan perintah di bawah.
 
-Terakhir **restart** service apache2 agar bisa menggunakan Web Mail. 
+```console
+sudo adduser b
+```
+
+```console
+sudo adduser c
+```
+
+Restart postfix dan dovecot service.
+
+```console
+sudo systemctl restart postfix dovecot
+```
