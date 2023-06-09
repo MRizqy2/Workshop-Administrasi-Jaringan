@@ -25,7 +25,9 @@ Berikut cara konfigurasi SMTP Server pada Sistem Operasi Linux:
 
 Fase ini akan dijalankan secara otomatis sehingga user akan diminta mengisi email system name.
 
-
+```console
+mail.kampus-04.takehome.com
+```
 
 3. Lalu konfigurasi file **main.cf** seperti berikut ini
 
@@ -36,7 +38,7 @@ Fase ini akan dijalankan secara otomatis sehingga user akan diminta mengisi emai
 Edit file konfigurasi `/etc/dovecot/dovecot.conf`.
 
 ```console
-sudo vim /etc/dovecot/dovecot.conf
+sudo nano /etc/dovecot/dovecot.conf
 ```
 
 Uncomment dan edit baris berikut.
@@ -52,7 +54,7 @@ listen = *
 Edit file konfigurasi `/etc/dovecot/conf.d/10-auth.conf`.
 
 ```console
-sudo vim /etc/dovecot/conf.d/10-auth.conf
+sudo nano /etc/dovecot/conf.d/10-auth.conf
 ```
 
 Uncomment dan ganti dari yes ke no.
@@ -66,7 +68,7 @@ disable_plaintext_auth = no
 Edit file konfigurasi `/etc/dovecot/conf.d/10-mail.conf`.
 
 ```console
-sudo vim /etc/dovecot/conf.d/10-mail.conf
+sudo nano /etc/dovecot/conf.d/10-mail.conf
 ```
 
 Uncomment pada `mail_location = maildir:~/Maildir` dan beri comment pada `mail_location = mbox:~/mail:INBOX=/var/mail/%u`.
