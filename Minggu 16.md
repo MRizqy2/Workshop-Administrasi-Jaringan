@@ -33,35 +33,30 @@ sudo nano /etc/roundcube/config.inc.php
 Isikan default host dengan nama domain mail server.
 
 ```console
-// For example %n = mail.domain.tld, %t = domain.tld
 $config['default_host'] = 'mail.kampus-04.takehome.com';
 ```
 
 Ganti smtp server dengan nama domain mail server.
 
 ```console
-// For example %n = mail.domain.tld, %t = domain.tld
 $config['smtp_server'] = 'mail.kampus-04.takehome.com';
 ```
 
 Ganti smtp port dari 587 ke 25.
 
 ```console
-// SMTP port. Use 25 for cleartext, 465 for Implicit TLS, or 587 for STARTTLS (default)
 $config['smtp_port'] = 25;
 ```
 
 Kosongkan value dari smtp user.
 
 ```console
-// will use the current username for login
 $config['smtp_user'] = '';
 ```
 
 Kosongkan value dari smtp password.
 
 ```console
-// will use the current user's password for login
 $config['smtp_pass'] = '';
 ```
 
